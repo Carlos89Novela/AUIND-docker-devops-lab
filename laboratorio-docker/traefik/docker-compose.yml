@@ -7,20 +7,20 @@ services:
       - "--api.insecure=true"
       - "--api.dashboard=true"
 
-      # ✅ ENTRYPOINT WEB (app)
       - "--entrypoints.web.address=:8080"
-
-      # ✅ ENTRYPOINT TRAEFIK (dashboard)
       - "--entrypoints.traefik.address=:8081"
 
-      - "--providers.file.directory=/etc/traefik"
+      # ✅ SOLO ESTA (NO directory)
+      - "--providers.file=true"
+      - "--providers.file.filename=/etc/traefik/dynamic.yml"
+      - "--log.level=DEBUG"
 
     ports:
-      - "8000:8080"   # app
-      - "8081:8081"   # dashboard
+      - "8000:8080"
+      - "8081:8081"
 
     volumes:
-      - ./dynamic.yml:/etc/traefik/dynamic.yml
+      - ${PWD}/dynamic.yml:/etc/traefik/dynamic.yml
 
     networks:
       - proxy
