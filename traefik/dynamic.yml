@@ -1,0 +1,13 @@
+http:
+  routers:
+    web:
+      rule: "PathPrefix(`/`)"
+      service: web
+      entryPoints:
+        - web
+
+  services:
+    web:
+      loadBalancer:
+        servers:
+          - url: "http://web:80"

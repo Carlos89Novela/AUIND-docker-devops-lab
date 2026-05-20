@@ -1,0 +1,2 @@
+# Ignorar archivo ACME de Traefik (contiene certificados/secretos)
+traefik/letsencrypt/acme.json
