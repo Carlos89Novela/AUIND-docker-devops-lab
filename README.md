@@ -790,6 +790,7 @@ y una vez hecho lo anterior se prueba con :
 
 #WEB2
 
+<img width="1458" height="754" alt="image" src="https://github.com/user-attachments/assets/25bb4508-3c66-4d42-813f-3aa2d8a00773" />
 
 
 
