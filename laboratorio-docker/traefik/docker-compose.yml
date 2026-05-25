@@ -1,26 +1,31 @@
 services:
-
   traefik:
     image: traefik:v2.10
+    container_name: traefik
 
     command:
-      - "--api.insecure=true"
       - "--api.dashboard=true"
+      - "--api.insecure=false"
 
-      - "--entrypoints.web.address=:8080"
-      - "--entrypoints.traefik.address=:8081"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
 
-      # ✅ SOLO ESTA (NO directory)
-      - "--providers.file=true"
+      # redirección HTTP -> HTTPS
+      - "--entrypoints.web.http.redirections.entrypoint.to=websecure"
+      - "--entrypoints.web.http.redirections.entrypoint.scheme=https"
+
+      # solo file provider
       - "--providers.file.filename=/etc/traefik/dynamic.yml"
+
       - "--log.level=DEBUG"
 
     ports:
-      - "8000:8080"
-      - "8081:8081"
+      - "80:80"
+      - "443:443"
 
     volumes:
-      - ${PWD}/dynamic.yml:/etc/traefik/dynamic.yml
+      - ./dynamic.yml:/etc/traefik/dynamic.yml:ro
+      - ./certs:/certs:ro
 
     networks:
       - proxy
