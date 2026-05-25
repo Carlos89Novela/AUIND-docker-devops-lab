@@ -353,19 +353,23 @@ y una vez hecho lo anterior se prueba con :
 
     http://app.midominio.com
 
-  ![alt text](image-6.png)
+  <img width="1386" height="717" alt="image" src="https://github.com/user-attachments/assets/9251b7e2-a893-4b81-b404-54b2b23e0f81" />
+
 
     http://mail.midominio.com:8025
 
-  ![alt text](image-5.png)
+  <img width="521" height="480" alt="image" src="https://github.com/user-attachments/assets/92ac1413-5d1c-4a52-aa8f-cf568d4fd901" />
+
 
     http://portainer.dominio.com:9000
 
-  ![alt text](image-4.png)
+ <img width="796" height="759" alt="image" src="https://github.com/user-attachments/assets/d97b46a6-67c0-435c-b45b-37ce57898b20" />
+
 
     http://dashboard.midominio.com:8081
     
-  ![alt text](image-7.png)
+  <img width="1175" height="771" alt="image" src="https://github.com/user-attachments/assets/f244aa3d-06ae-4bf1-82b3-63a33d297d37" />
+
 
 ==========================================================================================================================================
 #Autor: Carlos Marquez 10:38AM 22May26
