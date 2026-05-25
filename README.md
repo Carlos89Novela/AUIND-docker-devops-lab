@@ -790,7 +790,7 @@ y una vez hecho lo anterior se prueba con :
 
 #WEB2
 
-<img width="925" height="416" alt="image" src="https://github.com/user-attachments/assets/14fdc5ed-62c2-4aa5-8868-6694c7122b01" />
+
 
 
 #WEB3
@@ -827,6 +827,7 @@ y una vez hecho lo anterior se prueba con :
         external: true
       wordpress:
 
-<img width="1458" height="754" alt="image" src="https://github.com/user-attachments/assets/1a51de5b-5f90-4583-a19c-9e129d1da61c" />
+<img width="925" height="416" alt="image" src="https://github.com/user-attachments/assets/f6b80ddb-25b9-4b14-ae10-316d26b6cf90" />
+
 
 ============================================================================
