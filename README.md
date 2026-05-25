@@ -623,27 +623,34 @@ y una vez hecho lo anterior se prueba con :
 
 #WEB:
 
-![alt text](image-14.png)
+<img width="1386" height="717" alt="image" src="https://github.com/user-attachments/assets/879bfe06-6895-44d4-a02a-c530554ad58f" />
+
 #DASHBOARD:
 
-![alt text](image-15.png)
+<img width="1175" height="771" alt="image" src="https://github.com/user-attachments/assets/daf4781a-fbde-4445-a4a6-0ff02eba313a" />
+
 
 #MAILHOG:
 
-![alt text](image-16.png)
+<img width="521" height="480" alt="image" src="https://github.com/user-attachments/assets/e7a4eec3-547c-4746-975b-228d57d34fd3" />
+
 
 #PORTAINER:
 
-![alt text](image-17.png)
+<img width="796" height="759" alt="image" src="https://github.com/user-attachments/assets/7e9cebec-7c32-46d4-bd30-f4bc26f0046c" />
+
 #ADMINER:
 
-![alt text](image-18.png)
+<img width="567" height="385" alt="image" src="https://github.com/user-attachments/assets/8857f89d-9732-4052-8bda-5c973540da7f" />
+
 #phpMyAdmin:
 
-![alt text](image-19.png)
+<img width="1028" height="536" alt="image" src="https://github.com/user-attachments/assets/062b57f1-f739-4de3-a993-d3908942518e" />
+
 #WordPress:
 
-![alt text](image-20.png)
+<img width="925" height="416" alt="image" src="https://github.com/user-attachments/assets/b27f8bd8-4c1d-4edf-90d6-f40badbbeb56" />
+
 ============================================================================
 #Autor: Carlos Marquez 07:05PM 22May26
 
@@ -779,11 +786,16 @@ y una vez hecho lo anterior se prueba con :
       </html>
 
 #WEB1
-![alt text](image-11.png)
+<img width="1463" height="755" alt="image" src="https://github.com/user-attachments/assets/ef9138dd-2785-4cce-95fd-28101fcdb3f5" />
+
 #WEB2
-![alt text](image-12.png)
+
+<img width="925" height="416" alt="image" src="https://github.com/user-attachments/assets/14fdc5ed-62c2-4aa5-8868-6694c7122b01" />
+
+
 #WEB3
-![alt text](image-13.png)
+<img width="1465" height="756" alt="image" src="https://github.com/user-attachments/assets/e54ae177-320f-41aa-92d3-93633320f90b" />
+
 ============================================================================
 #Autor: Carlos Marquez 07:12PM 22May26
 
@@ -815,5 +827,6 @@ y una vez hecho lo anterior se prueba con :
         external: true
       wordpress:
 
-![alt text](image-10.png)
+<img width="1458" height="754" alt="image" src="https://github.com/user-attachments/assets/1a51de5b-5f90-4583-a19c-9e129d1da61c" />
+
 ============================================================================
