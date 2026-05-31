@@ -831,4 +831,14 @@ y una vez hecho lo anterior se prueba con :
 <img width="925" height="416" alt="image" src="https://github.com/user-attachments/assets/f6b80ddb-25b9-4b14-ae10-316d26b6cf90" />
 
 
-============================================================================
+==========================================================================
+
+# Autor: Milton Darío Rodríguez Ortega
+
+## Participación en el proyecto
+
+Se colaboró en la revisión de la documentación técnica del laboratorio, validación de la estructura de Docker Compose y verificación del funcionamiento de los servicios implementados mediante contenedores.
+
+## Conclusión
+
+La utilización de Docker Compose permite administrar múltiples servicios desde una única configuración, facilitando el despliegue, mantenimiento y escalabilidad de entornos basados en contenedores. Asimismo, herramientas como Traefik, Redis, MailHog y Portainer contribuyen a la implementación de un entorno DevOps moderno y organizado.
