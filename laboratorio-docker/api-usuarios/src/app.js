@@ -3,12 +3,10 @@ const app = express();
 
 app.use(express.json());
 
-// Endpoint de prueba
 app.get('/', (req, res) => {
   res.json({ mensaje: 'API Usuarios funcionando' });
 });
 
-// Listar usuarios
 app.get('/api/users', (req, res) => {
   res.json([
     {
